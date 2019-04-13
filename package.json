@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "node webpack/dev.js",
     "build": "node webpack/build.js",
-    "build:test": "node webpack/test.js",
-    "w": "webpack"
+    "build:test": "node webpack/test.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +13,7 @@
     "autoprefixer": "^9.5.1",
     "babel-loader": "^7.1.5",
     "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "clean-webpack-plugin": "^2.0.1",
     "copy-webpack-plugin": "^5.0.2",
     "css-loader": "^2.1.1",
@@ -32,10 +32,12 @@
     "webpack-cli": "^3.3.0",
     "webpack-dev-middleware": "^3.6.2",
     "webpack-dev-server": "^3.3.1",
-    "webpack-merge": "^4.2.1"
+    "webpack-merge": "^4.2.1",
+    "babel-core": "^6.26.3"
   },
   "dependencies": {
-    "babel-core": "^6.26.3",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }
